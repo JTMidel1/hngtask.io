@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HNG|Goal</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- Move to up button -->
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <!-- navigation menu -->
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="http://hng.tech/learn" data-testid="hngLink">HNGINTERN</a></div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Goal</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+        <div class="media-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one">Hello, I'm</div>
+          <div class="text-two" data-testid="slackDisplayName">Jesutomi</div>
+          <div class="text-three">Frontend Intern</div>
+          <div class="text-four" data-testid="slackEmail"><p>jtmidel@gmail.com</p></div>
+          <div class="text-five" data-testid="currentDay" id="current-day">Current Day</div>
+          <div class="text-six" data-testid="currentTimeUTC" id="current-time-utc"><p>Current Time (UTC):</p></div>
+        </div>
+        <div class="button">
+          <button>Available</button>
+        </div>
+      </div>
+    </section>
+       
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>Two Years Goal Statement</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="images/background.png" alt="" data-testid="slackProfilePicture"/>
+          </div>
+          <div class="right">
+            <div class="topic">My Two Years Goal in Tech</div>
+            <p>My goal is to become a web and AI enthusiast within the next two years. I am currently immersing myself in web technologies to grasp the inner workings of the web. My aspiration is to further delve into other cutting-edge technologies and their seamless integration with AI, ultimately achieving a profound and comprehensive understanding in this exciting field. 
+              To accomplish this, I plan to build a solid foundation by mastering web development principles, frameworks, and best practices, including HTML, CSS, JavaScript, and various libraries and frameworks like React and Angular. I will also explore backend technologies such as Node.js, databases, and server management to gain a full-stack perspective. 
+              Subsequently, I will dive into AI concepts, focusing on machine learning, neural networks, data analysis, and natural language processing. I intend to learn and utilize popular AI frameworks and tools such as TensorFlow, PyTorch, and scikit-learn. 
+              By combining these skill sets, I aim to create innovative solutions that leverage the power of AI within web applications, contributing meaningfully to the ever-evolving tech landscape. I am committed to continuous learning and staying updated with the latest advancements, attending workshops, participating in online courses, and collaborating with like-minded professionals. This journey will enable me to not only understand but also influence the future of technology, bridging the gap between web development and artificial intelligence.</p>
+            <div class="button">
+              <button>More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me section Start -->
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Contact</span></div>
+        <div class="text">
+          <p>The following links are beneficial for learning purpose</p>
+          <div class="button">
+           <button><a href="https://hng.tech/learn" data-testid="hngLink">HNGLEARN</a></button> 
+            <button><a href="https://keyword.dog" data-testid="keywordLink" class="button-link">KEYWORD DOG</a></button>
+            <button><a href="https://scrapeanyweb.site" data-testid="scrapanywebLink" class="button-link">WEBSCRAPER</a></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section Start -->
+    <footer>
+      <div class="text">
+        <span>Created By <a href="#">JT_Bamidele</a> | &#169; 2024 All Rights Reserved</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
